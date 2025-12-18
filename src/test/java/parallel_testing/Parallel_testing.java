@@ -62,7 +62,7 @@ public class Parallel_testing {
 	@AfterClass
 	void tearDown()
 	{
-		driver.quit();
+		//driver.quit();
 	}
 	
 	

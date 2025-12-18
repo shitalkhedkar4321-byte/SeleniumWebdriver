@@ -1,25 +1,71 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="6" passed="6" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-12-15T20:55:23 IST" name="Default suite" finished-at="2025-12-15T20:56:24 IST" duration-ms="60821">
+  <suite started-at="2025-12-16T19:27:27 IST" name="Suite" finished-at="2025-12-16T19:28:22 IST" duration-ms="55125">
     <groups>
     </groups>
-    <test started-at="2025-12-15T20:55:23 IST" name="Default test" finished-at="2025-12-15T20:56:24 IST" duration-ms="60821">
-      <class name="pom_demo.Test_login">
-        <test-method is-config="true" signature="setup()[pri:0, instance:pom_demo.Test_login@d737b89]" started-at="2025-12-15T20:55:23 IST" name="setup" finished-at="2025-12-15T20:56:10 IST" duration-ms="47589" status="PASS">
+    <test started-at="2025-12-16T19:27:27 IST" name="Test" finished-at="2025-12-16T19:27:55 IST" duration-ms="28333">
+      <class name="parallel_testing.Parallel_testing">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:parallel_testing.Parallel_testing@363042d7]" started-at="2025-12-16T19:27:27 IST" name="setup" finished-at="2025-12-16T19:27:52 IST" duration-ms="25180" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="testlogin()[pri:0, instance:pom_demo.Test_login@d737b89]" started-at="2025-12-15T20:56:10 IST" name="testlogin" finished-at="2025-12-15T20:56:23 IST" duration-ms="12434" status="PASS">
+        <test-method signature="testLogo()[pri:1, instance:parallel_testing.Parallel_testing@363042d7]" started-at="2025-12-16T19:27:52 IST" name="testLogo" finished-at="2025-12-16T19:27:55 IST" duration-ms="2791" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testlogin -->
-        <test-method is-config="true" signature="tearBreak()[pri:0, instance:pom_demo.Test_login@d737b89]" started-at="2025-12-15T20:56:23 IST" name="tearBreak" finished-at="2025-12-15T20:56:24 IST" duration-ms="712" status="PASS">
+        </test-method> <!-- testLogo -->
+        <test-method signature="testTitle()[pri:2, instance:parallel_testing.Parallel_testing@363042d7]" started-at="2025-12-16T19:27:55 IST" name="testTitle" finished-at="2025-12-16T19:27:55 IST" duration-ms="17" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- tearBreak -->
-      </class> <!-- pom_demo.Test_login -->
-    </test> <!-- Default test -->
-  </suite> <!-- Default suite -->
+        </test-method> <!-- testTitle -->
+        <test-method signature="testURL()[pri:3, instance:parallel_testing.Parallel_testing@363042d7]" started-at="2025-12-16T19:27:55 IST" name="testURL" finished-at="2025-12-16T19:27:55 IST" duration-ms="14" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testURL -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:parallel_testing.Parallel_testing@363042d7]" started-at="2025-12-16T19:27:55 IST" name="tearDown" finished-at="2025-12-16T19:27:55 IST" duration-ms="275" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- parallel_testing.Parallel_testing -->
+    </test> <!-- Test -->
+    <test started-at="2025-12-16T19:27:55 IST" name="edge" finished-at="2025-12-16T19:28:22 IST" duration-ms="26730">
+      <class name="parallel_testing.Parallel_testing">
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:parallel_testing.Parallel_testing@6ebf0f36]" started-at="2025-12-16T19:27:55 IST" name="setup" finished-at="2025-12-16T19:28:20 IST" duration-ms="25197" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[edge]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testLogo()[pri:1, instance:parallel_testing.Parallel_testing@6ebf0f36]" started-at="2025-12-16T19:28:20 IST" name="testLogo" finished-at="2025-12-16T19:28:21 IST" duration-ms="746" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testLogo -->
+        <test-method signature="testTitle()[pri:2, instance:parallel_testing.Parallel_testing@6ebf0f36]" started-at="2025-12-16T19:28:21 IST" name="testTitle" finished-at="2025-12-16T19:28:21 IST" duration-ms="21" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testTitle -->
+        <test-method signature="testURL()[pri:3, instance:parallel_testing.Parallel_testing@6ebf0f36]" started-at="2025-12-16T19:28:21 IST" name="testURL" finished-at="2025-12-16T19:28:21 IST" duration-ms="23" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testURL -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:parallel_testing.Parallel_testing@6ebf0f36]" started-at="2025-12-16T19:28:21 IST" name="tearDown" finished-at="2025-12-16T19:28:22 IST" duration-ms="730" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- parallel_testing.Parallel_testing -->
+    </test> <!-- edge -->
+  </suite> <!-- Suite -->
 </testng-results>
